@@ -1,0 +1,28 @@
+*{
+    box-sizing: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #cddff3;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    text-align: center;
+}
+
+img {
+    width: 235px;
+    height: 243px;
+    margin-top: 10px;
+}
+
+.container, img {
+    border-radius: 10px;
+}
