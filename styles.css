@@ -6,6 +6,7 @@
 
 body {
     background: #cddff3;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -15,14 +16,30 @@ body {
     transform: translate(-50%, -50%);
     background: #fff;
     text-align: center;
+    padding: 5px;
 }
 
 img {
-    width: 235px;
-    height: 243px;
-    margin-top: 10px;
+    width: 260px;
+    height: 260px;
+    margin: 10px;
 }
+
 
 .container, img {
     border-radius: 10px;
+}
+
+/* .content {
+    font-size: 16px;
+} */
+
+p {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+h2, p {
+    margin: 20px 20px;
 }
